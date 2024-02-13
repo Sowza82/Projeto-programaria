@@ -1,0 +1,174 @@
+body {
+  text-align: center;
+  font-family: Open Sans, sans serif;
+  background-color: #e17319;
+  color: #ffffff;
+  margin: 0px 0px 30px 0px;
+}
+
+
+h2 {
+  font-size: 40px;
+  color: #100f0e;
+}
+
+.titulo-verde {
+  color: #04ff9f;
+}
+
+
+.titulo-vermelho {
+  color: #ff9e9e;
+}
+
+.titulo-amarelo {
+  color: #ffe36d;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section section {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300
+}
+
+h3 {
+  font-size: 22px;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #99ffff;
+  font-weight: 700;
+}
+
+
+.principal {
+  background: #e17f0e;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.principal a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  transition: color 0.3s;
+}
+
+.principal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.principal li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 1em;
+}
+
+.principal a:hover {
+  color: #ffcc00;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #d08d1b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #95631d;
+}
+
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  background-color: #d08d1b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  background-color: #95631d;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+  footer.rodape {
+    background-color: #5d2c04;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+  }
+  }
